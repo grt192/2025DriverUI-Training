@@ -1,6 +1,6 @@
 from PySide6.QtWidgets import  QLabel
 from PySide6.QtCore import Qt
-from Helpers.NetworktableManager import NetworkTableManager
+from NetworktableManager import NetworkTableManager
 
 
 class DoubleDisplayLabel(QLabel):

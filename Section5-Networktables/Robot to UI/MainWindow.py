@@ -1,7 +1,7 @@
 import sys
 from PySide6.QtWidgets import QApplication, QMainWindow, QVBoxLayout
 from PySide6.QtWidgets import QLabel
-from PushButtonWidget import PushButtonWidget
+from DoubleDisplayLabel import DoubleDisplayLabel
 # Every UI has a MainWindows that contains everything. 
 class MainWindow(QMainWindow):
 
@@ -10,10 +10,12 @@ class MainWindow(QMainWindow):
     super().__init__()
     self.setWindowTitle("Hello World")
     self.resize(1920, 1080)
-    self.pushButtonWidget = PushButtonWidget()
+    self.doubleDisplayLabel= DoubleDisplayLabel(
+      "prarmeterName", "tableName", "entryName"
+    )
     
     # To display a widget, it must be set to the central widget.
-    self.setCentralWidget(self.pushButtonWidget)
+    self.setCentralWidget(self.doubleDisplayLabel)
 
     self.show()
 

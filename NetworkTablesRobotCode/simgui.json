@@ -1,0 +1,29 @@
+{
+  "NTProvider": {
+    "types": {
+      "/FMSInfo": "FMSInfo"
+    }
+  },
+  "NetworkTables": {
+    "transitory": {
+      "networkTable": {
+        "open": true
+      }
+    }
+  },
+  "NetworkTables Info": {
+    "Clients": {
+      "open": true
+    },
+    "DartClient_26934764@1": {
+      "Publishers": {
+        "open": true
+      },
+      "Subscribers": {
+        "open": true
+      },
+      "open": true
+    },
+    "visible": true
+  }
+}
