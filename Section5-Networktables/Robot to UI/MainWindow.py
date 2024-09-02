@@ -11,7 +11,7 @@ class MainWindow(QMainWindow):
     self.setWindowTitle("Hello World")
     self.resize(1920, 1080)
     self.doubleDisplayLabel= DoubleDisplayLabel(
-      "prarmeterName", "tableName", "entryName"
+      "prarmeterName", "networkTable", "networkTableEntry"
     )
     
     # To display a widget, it must be set to the central widget.
@@ -23,4 +23,4 @@ class MainWindow(QMainWindow):
 if __name__ == "__main__":
   app = QApplication(sys.argv)
   window = MainWindow()
-  sys.exit(app.exec_())
+  sys.exit(app.exec())

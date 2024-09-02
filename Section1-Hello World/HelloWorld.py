@@ -1,3 +1,7 @@
+"""
+This file creates an empty window with the title "Hello World".
+Run this file to see the window.
+"""
 import sys
 from PySide6.QtWidgets import QApplication, QMainWindow
 
@@ -11,7 +15,7 @@ class HelloWorld(QMainWindow):
     self.resize(1920, 1080)
     self.show()
 
-# This is the "tamplate" to start the UI, just copy it.
+# This is the tamplate to start the UI, just copy it.
 if __name__ == "__main__":
   app = QApplication(sys.argv)
   window = HelloWorld()

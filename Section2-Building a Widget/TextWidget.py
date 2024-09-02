@@ -1,4 +1,6 @@
-import sys
+"""
+This file defines a customized text widget that displays "Hello World".
+"""
 from PySide6.QtWidgets import QWidget, QLabel, QVBoxLayout, QSizePolicy
 
 class TextWidget(QWidget):

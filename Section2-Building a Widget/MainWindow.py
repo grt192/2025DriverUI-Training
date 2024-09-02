@@ -1,5 +1,9 @@
+"""
+This example shows how to create a simple widget
+Run this file to see the window.
+"""
 import sys
-from PySide6.QtWidgets import QApplication, QMainWindow, QVBoxLayout
+from PySide6.QtWidgets import QApplication, QMainWindow
 from PySide6.QtWidgets import QLabel
 from TextWidget import TextWidget
 # Every UI has a MainWindows that contains everything. 
@@ -17,7 +21,7 @@ class MainWindow(QMainWindow):
 
     self.show()
 
-# This is the "tamplate" to start the UI, just copy it.
+# This is the tamplate to start the UI, just copy it.
 if __name__ == "__main__":
   app = QApplication(sys.argv)
   window = MainWindow()

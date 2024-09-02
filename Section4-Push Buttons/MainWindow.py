@@ -1,3 +1,7 @@
+"""
+This example shows how to create a push button and connect it to a function.
+Run this file to see the window.
+"""
 import sys
 from PySide6.QtWidgets import QApplication, QMainWindow, QVBoxLayout
 from PySide6.QtWidgets import QLabel

@@ -12,10 +12,19 @@
     }
   },
   "NetworkTables Info": {
-    "Clients": {
+    "Connections": {
       "open": true
     },
     "DartClient_26934764@1": {
+      "Publishers": {
+        "open": true
+      },
+      "Subscribers": {
+        "open": true
+      },
+      "open": true
+    },
+    "Server": {
       "Publishers": {
         "open": true
       },
